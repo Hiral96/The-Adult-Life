@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+}
+
+body {
+    margin: 10px;
+    text-align:center;
+}
+
+h1 {font-family: 'Times New Roman', Times, serif; 
+    color:seashell; text-align: center;
+
+}
+
+h2 {font-family: 'Times New Roman', Times, serif; 
+    color:seashell; text-align: center;
+
+}
+
+p {font-family: 'Times New Roman', Times, serif; 
+    color:rgb(255, 255, 255); text-align: center;
+
+}
+
+a {
+    color: seashell;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+}
+
+button {
+    border-style: groove;
+    border-color: seashell;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: seashell;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.image2 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-image: url(./lemon.png); 
+    background-repeat: none;
+    background-size: cover;
+    padding:0% 30% 10% ;
+    
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 106, 0);
+    padding:180px 50px 0px 80px ;
+
+}
+
+.aboutblock {
+    text-align:center;
+    background-image: url(./vineyard\ wallpaper.jpg) ;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    opacity: 50%;
+    margin-left:25%;
+    color: seashell;
+}
+
+.contactblock {
+    text-align:center;
+    background-position: fixed;
+    background-image: url(./thank\ you\ wallpaper.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    max-width: 50%;
+    color: seashell;
+    padding:10%;
+    margin-left:25%;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: seashell;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.anonymous {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: seashell;
+    font-style: italic;
+}
+
+.topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    color: seashell;
+}
+
+.font_7 {
+    font-size:25px;
+}
+
+.font_8 {
+    font-size:25px;
+}
+
+.biggertext {
+    font-size: 20px;
+
+}
+
+
+.homepage {
+    background-color:rgb(184, 161, 62);
+
+}
+
+.aboutus {
+    background-color:rgb(184, 161, 62);
+
+}
+
+.contactus {
+    background-color:rgb(184, 161, 62);
+
+}
+
+.blogsections {
+    background-color:rgb(184, 161, 62);
+
+}
+
+.subscribe {
+    background-color:rgb(184, 161, 62);
+
+}
